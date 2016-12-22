@@ -1,0 +1,39 @@
+body {
+	background-color: lightgrey;
+}
+
+img {
+	overflow: hidden;
+}
+
+.modalContent {
+	margin-top: 20px;
+}
+
+.overlay {
+	z-index: 10;
+	position: absolute;
+	margin-top: -132%;
+	opacity: 0;
+	height: 100%;
+	overflow: hidden;
+	width: 88%;
+}
+
+.things {
+	/*visibility: hidden;*/
+	z-index: 11;
+}
+.things:hover {
+	visibility: visible;
+}
+
+.overlay:hover {
+	background-color: white;
+	visibility: visible;
+	opacity: 0.7;
+}
+
+.hoverThis {
+	
+}

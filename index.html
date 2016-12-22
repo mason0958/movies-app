@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movies Galore</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="config.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+	<script src="js/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" href="css/jquery.modal.css" type="text/css" media="screen" />
+
+</head>
+<body>
+<nav class="navbar navbar-inverse" style="background-color: black;">
+  <div  class="container-fluid" style="background-color: black; border: none; border-radius: none;" >
+    <div class="navbar-header">
+      <a class="navbar-brand" style="color: white" href="#">MoviesGalore.com</a>
+    </div>
+    <!-- <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+    </ul> -->
+    <form class="navbar-form navbar-left" style="float: right; position: absolute; left: 75%;">
+      <div class="form-group this-group">
+        <input type="text" class="form-control" placeholder="Search for Movies">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+</nav>
+<div class="container" style="background-color: black;">
+	<div style="background-color: red; width: 340px; height: 45px; z-index: 1; position: relative; top: 130px; left: 35%;"><h1 class="text-center" style="color: white; z-index: 2; font-size: 40px;">In Movies Now</h1></div>
+	
+	<div class="row row-main" style="height: 300px;position: relative;bottom: 40px;">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width: 220px; position: relative; left: 15px;">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		   <!--  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2"></li> -->
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner carousel-inner-main" role="listbox">
+		    <div class="item active">
+		      <img src="grey-movie-poster.jpg">
+		    </div>
+		    <div class="item">
+		      <img src="..." alt="...">
+		      <div class="carousel-caption">
+		        ...
+		      </div>
+		    </div>
+		    ...
+		  </div>
+
+		  <!-- Controls -->
+		 <!--  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a> -->
+		</div>
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width: 220px; position: relative; bottom: 330px; left: 245px;">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		   <!--  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2"></li> -->
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner carousel-inner-a" role="listbox">
+		    <div class="item active">
+		      <img src="grey-movie-poster.jpg">
+		    </div>
+		    <div class="item">
+		      <img src="..." alt="...">
+		      <div class="carousel-caption">
+		        ...
+		      </div>
+		    </div>
+		    ...
+		  </div>
+
+		  <!-- Controls -->
+		  <!-- <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a> -->
+		</div>
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width: 220px; position: relative; bottom: 660px; left: 475px;">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		   <!--  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2"></li> -->
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner carousel-inner-b" role="listbox">
+		    <div class="item active">
+		      <img src="grey-movie-poster.jpg">
+		    </div>
+		    <div class="item">
+		      <img src="..." alt="...">
+		      <div class="carousel-caption">
+		        ...
+		      </div>
+		    </div>
+		    ...
+		  </div>
+
+		  <!-- Controls -->
+		  <!-- <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a> -->
+		</div>
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width: 220px; position: relative; bottom: 990px; left: 705px;">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		   <!--  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2"></li> -->
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner carousel-inner-c" role="listbox">
+		    <div class="item active">
+		      <img src="grey-movie-poster.jpg">
+		    </div>
+		    <div class="item">
+		      <img src="..." alt="...">
+		      <div class="carousel-caption">
+		        ...
+		      </div>
+		    </div>
+		    ...
+		  </div>
+
+		  <!-- Controls -->
+		 <!--  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a> -->
+		</div>
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width: 220px; position: relative; bottom: 1320px; left: 935px;">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		   <!--  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2"></li> -->
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner carousel-inner-d" role="listbox">
+		    <div class="item active">
+		      <img src="grey-movie-poster.jpg">
+		    </div>
+		    <div class="item">
+		      <img src="..." alt="...">
+		      <div class="carousel-caption">
+		        ...
+		      </div>
+		    </div>
+		    ...
+		  </div>
+
+		  <!-- Controls -->
+		 <!--  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a> -->
+		</div>
+	</div>
+</div>
+<div class="container-fluid" style="margin-top: 40px; margin-left: 20px; margin-right: 20px; margin-bottom: 20px; background-color: black">
+	
+	<div class="row row-bottom">
+		
+	</div>
+	<div class="row">
+			  <!-- Modal HTML embedded directly into document -->
+
+	  <!-- Link to open the modal -->
+	  <!-- <p><a href="#ex2" rel="modal:open">Open Modal</a></p> -->
+	</div>
+</div>
+
+
+</body>
+</html>
